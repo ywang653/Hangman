@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project - Hangman - COMP2132</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <script src="../scripts/game.js" defer="defer"></script>
+    <script src="../scripts/project.js" defer="defer"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Project - Hangman</h1>
+        </header>
+        <main>
+            <section>
+                <div class="section_wrapper">
+                    <h2>Hint:</h2>
+                    <div>
+                        <P id="hint">Blueprint for creating objects.</P>
+                    </div>
+                </div>
+                <div class="section_wrapper">
+                    <h2 id="remaining">Remaining: 6</h2>
+                    <img src="../images/hangman_0.png" alt="hangman" id="hangman_image">
+                </div>
+                <div class="section_wrapper">
+                    <div class="answers" id="answers">
+                        <div class="answer">&nbsp;</div>
+                        <div class="answer">&nbsp;</div>
+                        <div class="answer">&nbsp;</div>
+                        <div class="answer">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="section_wrapper">
+                    <div id="keys">
+                        <div class="key_row">
+                            <div class="button">Q</div>
+                            <div class="button">W</div>
+                            <div class="button">E</div>
+                            <div class="button">R</div>
+                            <div class="button">T</div>
+                            <div class="button">Y</div>
+                            <div class="button">U</div>
+                            <div class="button">I</div>
+                            <div class="button">O</div>
+                            <div class="button">P</div>
+                        </div>
+                        <div class="key_row">
+                            <div class="button">A</div>
+                            <div class="button">S</div>
+                            <div class="button">D</div>
+                            <div class="button">F</div>
+                            <div class="button">G</div>
+                            <div class="button">H</div>
+                            <div class="button">J</div>
+                            <div class="button">K</div>
+                            <div class="button">L</div>
+                        </div>
+                        <div class="key_row">
+                            <div class="button">Z</div>
+                            <div class="button">X</div>
+                            <div class="button">C</div>
+                            <div class="button">V</div>
+                            <div class="button">B</div>
+                            <div class="button">N</div>
+                            <div class="button">M</div>
+                        </div>
+                        <div id="key_block" class="float no-show">
+                            <p id="results">You Won!</p>
+                            <div id="restart">New Game</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </div>    
+</body>
+</html>

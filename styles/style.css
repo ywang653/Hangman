@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* variables */
+/* mixin */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+  background: #EDD382;
+  max-width: 900px;
+}
+
+header, nav, main, article, footer, section, i, #wrapper {
+  font-family: Roboto, sans-serif;
+  color: #F4442E;
+  background-color: #F2F3AE;
+}
+
+h2 {
+  background-color: #EDD382;
+  margin: 2px;
+  flex: 0 0 100%;
+}
+
+header {
+  display: flex;
+}
+
+ul {
+  list-style-type: "✅";
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+  margin: 2px 0px;
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+}
+
+section {
+  margin: 0px 0px;
+  padding-bottom: 2px;
+}
+
+article {
+  padding: 1% 2%;
+}
+
+img {
+  width: 80%;
+}
+
+/* classes */
+.section_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.key_row {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  font-size: 3em;
+  width: 80px;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+  border: solid 2px #F4442E;
+  border-radius: 4px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.answer {
+  text-decoration: underline;
+  font-size: 3em;
+  width: 60px;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #FC9E4F;
+}
+
+.clicked {
+  font-style: italic;
+  color: grey;
+  background-color: lightgray;
+}
+
+.no-show {
+  display: none;
+}
+
+.float {
+  position: absolute;
+  right: 0px;
+  top: 200px;
+}
+
+.block {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F3AE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* id */
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 900px;
+  margin: auto;
+}
+
+#header_image {
+  max-height: 65px;
+  margin: 10px;
+}
+
+#keys {
+  position: relative;
+}
+
+#results {
+  font-size: 4em;
+  color: #FC9E4F;
+}
+
+#restart {
+  font-size: 3em;
+  color: #FC9E4F;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+  border: solid 3px #FC9E4F;
+  border-radius: 4px;
+}
